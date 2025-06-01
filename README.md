@@ -2,9 +2,18 @@
 
 [poste.io](https://poste.io) is a pretty cool email server implementation for docker.  But this image makes it *cooler*.
 
-URLs:
-- https://poste.io/changelog
-- https://github.com/dirtsimple/poste.io
+Access URLs:
+* Email Web: https://mail.nnc.guru/webmail/
+* Admin Web: https://mail.nnc.guru/admin/
+
+Test Email Server
+* https://mxtoolbox.com/SuperTool.aspx?action=a%3annc.guru&run=toolpage
+* https://www.mail-tester.com
+* https://hunter.io/email-verifier
+
+Source URLs:
+* https://poste.io/changelog
+* https://github.com/dirtsimple/poste.io
 
 
 Specifically, it lets you:
