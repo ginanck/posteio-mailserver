@@ -43,7 +43,7 @@ permissions:
 jobs:
   # Build stage for PRs - builds only, no push
   build-pr:
-    name: Build PR - Posteio Mail Server
+    name: Build PR
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request'
     
@@ -89,7 +89,7 @@ jobs:
 
   # Build and push stage for main/master branch merges
   build-and-push:
-    name: Build & Push - Posteio Mail Server
+    name: Build & Push
     runs-on: ubuntu-latest
     if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.force_push || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'))
     
